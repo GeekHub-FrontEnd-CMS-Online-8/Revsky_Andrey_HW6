@@ -78,51 +78,59 @@
 
   <section class="skills">
     <header class="section-header">
-    <h2 class="h2">MY SKILLS</h2>
+    <h2>MY SKILLS</h2>
     </header>
     <img src="img/wawe.png" alt="what i know">
   </section>
 
   <section class="background">
+    <header class="section-header">
     <a name="Portfolio"><h2 class="h2">PORTFOLIO</h2></a>
-    <ul class="services hover">
-      <li><a href="img/p_1.png" target="_blank" title="Klick to open"><img src="img/p_1.png" alt="photo_1"></a></li>
-      <li><a href="img/p_2.png" target="_blank" title="Klick to open"><img src="img/p_2.png" alt="photo_2"></a></li>
-      <li><a href="img/p_3.png" target="_blank" title="Klick to open"><img src="img/p_3.png" alt="photo_3"></a></li>
-      <li><a href="img/p_4.png" target="_blank" title="Klick to open"><img src="img/p_4.png" alt="photo_4"></a></li>
-      <li><a href="img/p_5.png" target="_blank" title="Klick to open"><img src="img/p_5.png" alt="photo_5"></a></li>
-      <li><a href="img/p_6.png" target="_blank" title="Klick to open"><img src="img/p_6.png" alt="photo_6"></a></li>
+    </header>
+      <ul class="Portfolio-list">
+      <li><a href="javascript:void(0)"><img src="img/p_1.png" alt="photo_1"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/p_2.png" alt="photo_2"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/p_3.png" alt="photo_3"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/p_4.png" alt="photo_4"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/p_5.png" alt="photo_5"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/p_6.png" alt="photo_6"></a></li>
     </ul>
-    <a class="button button_color center text" href="#">LOAD MORE</a>
+    <div class="center">
+    <a class="button" href="javascript:void(0)">LOAD MORE</a>
+    </div>
   </section>
 
   <section>
+    <header class="section-header">
     <h2 class="h2">TESTIMONIALS</h2>
-    <div class="testers nav">
+    </header>
+    <div class="box center">
       <img src="img/ceo_photo.png" alt="Ceo">
-      <div class="ceo_content nav text"> <h5>LIMARA TUSI</h5>
+      <div class="desc"> <h6>LIMARA TUSI</h6>
         <span>CEO, RANDOM COMPANY</span>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
           Aenean commodo ligula eget dolor. Aenean massa.
           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
           Donec quam felis, ultricies nec,</p>
       </div>
-      <! here have to be JS slider>
+      <!--- slider NO--->
     </div>
   </section>
+
   <div class="background">
-    <ul class="privilege services text">
-      <li><img src="img/privilege_1.png" alt="peoples"><span> 120 Hands to Work</span></li>
-      <li><img src="img/privilege_2.png" alt="clients"><span> 310 Happy Client</span></li>
-      <li><img src="img/privilege_3.png" alt="projects"><span> 510 Finished Project</span></li>
-      <li><img src="img/privilege_4.png" alt="coffe"><span> 720 Cups of Coffe</span></li>
+    <ul class="list-items">
+      <li><img src="img/privilege_1.png" alt="peoples"><p> 120</p> <span>Hands to Work</span></li>
+      <li><img src="img/privilege_2.png" alt="clients"><p> 310</p> <span>Happy Client</span></li>
+      <li><img src="img/privilege_3.png" alt="projects"><p> 510</p> <span>Finished Project</span></li>
+      <li><img src="img/privilege_4.png" alt="coffe"><p> 720 Cups</p> <span>of Coffe</span></li>
     </ul>
   </div>
 </main>
-
-<footer class="contacts">
-  <section >
+<div class="bg-form">
+  <section class="contacts" >
+    <header class="section-header">
     <a name="Contacts"><h2 class="h2">SAY HELLO!</h2></a>
+    </header>
     <form action="#" method="post" class="form text">
       <div class="flex">
         <label id="Name"><input type="text" placeholder="Name" name="Name"></label>
@@ -133,9 +141,10 @@
     </form>
     <a class="to_head" href="#Main"><img src="img/row_2.png" alt="to head"></a>
   </section>
-  <div class="line"></div>
-  <section >
-    <ul class="links">
+
+
+<footer class="wrap">
+    <ul class="social-list">
       <li><a href="https://facebook.com" target="_blank"><img src="img/f.png" alt="facebook"></a></li>
       <li><a href="https://twitter.com" target="_blank"><img src="img/t.png" alt="twitter"></a></li>
       <li><a href="https://www.linkedin.com/" target="_blank"><img src="img/l.png" alt="linkedin"></a></li>
@@ -144,7 +153,7 @@
       <li><a href="https://dribbble.com/" target="_blank"><img src="img/d.png" alt="dribbble"></a></li>
     </ul>
     <span class="right">2017. All Right Reserved</span>
-  </section>
-</footer>
+  </footer>
+</div>
 </body>
 </html>

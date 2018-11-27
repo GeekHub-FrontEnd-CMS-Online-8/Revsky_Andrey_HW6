@@ -76,7 +76,7 @@ section {
   width: 600px; }
 
 .know-more {
-  margin-top: 100px;
+  margin-top: 75px;
   display: flex;
   justify-content: space-around;
   justify-items: center; }
@@ -104,24 +104,26 @@ section {
     margin-bottom: 76px;
     overflow: hidden; }
 
+.section-header {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 46px;
+  color: #7b7b7b; }
+  .section-header h2 {
+    position: relative; }
+    .section-header h2:after {
+      content: "";
+      width: 50px;
+      position: absolute;
+      border-bottom: 4px solid #7a7a7a;
+      top: 0;
+      bottom: 100px;
+      left: 48%;
+      right: 0; }
+
 .background {
-  background: #f6f6f6; }
-  .background .section-header {
-    padding-top: 100px;
-    text-align: center;
-    font-size: 46px;
-    color: #7b7b7b; }
-    .background .section-header h2 {
-      position: relative; }
-      .background .section-header h2:after {
-        content: "";
-        width: 50px;
-        position: absolute;
-        border-bottom: 4px solid #7a7a7a;
-        top: 0;
-        bottom: 100px;
-        left: 48%;
-        right: 0; }
+  background: #f6f6f6;
+  padding-bottom: 100px; }
   .background .services-list {
     display: flex;
     flex-direction: row;
@@ -132,3 +134,66 @@ section {
       text-align: center; }
       .background .services-list li p {
         width: 200px; }
+
+.skills img {
+  display: block;
+  margin: 20px auto; }
+
+.Portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .Portfolio-list li {
+    padding: 15px;
+    text-align: center; }
+    .Portfolio-list li :hover {
+      transition: 0.7s;
+      transform: scale(1.1, 1.1);
+      opacity: 0.75; }
+
+.center {
+  margin-top: 45px;
+  text-align: center; }
+
+.box {
+  width: 955px;
+  height: 350px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .box img {
+    width: 159px;
+    height: 159px;
+    border-radius: 5px; }
+  .box .desc {
+    width: 575px;
+    text-align: left; }
+    .box .desc h6 {
+      font-size: 30px; }
+    .box .desc span {
+      font-size: 12px;
+      font-style: italic; }
+    .box .desc p {
+      font-size: 16px;
+      color: #bebebe; }
+
+.list-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.bg-form {
+  background: #f6f6f6 url(../img/bg_img_2.png) center center no-repeat;
+  background-size: cover; }
+
+footer {
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between; }
+  footer social-list {
+    display: inline;
+    border: 1px solid red; }

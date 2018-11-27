@@ -100,7 +100,7 @@ section{
 }
 
 .know-more {
-  margin-top: 100px;
+  margin-top: 75px;
   display: flex;
   justify-content: space-around;
   justify-items: center;
@@ -132,41 +132,121 @@ section{
     overflow: hidden;
   }
 }
+.section-header {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 46px;
+  color: #7b7b7b;
+  h2 {
+    position: relative;
+    &:after {
+      content: "";
+      width: 50px;
+      position: absolute;
+      border-bottom: 4px solid #7a7a7a;
+      top: 0;
+      bottom:100px;
+      left: 48%;
+      right: 0;
+    }
+  }
+}
 
 .background {
   background: #f6f6f6;
-   .section-header {
-     padding-top: 100px;
-     text-align: center;
-     font-size: 46px;
-     color: #7b7b7b;
-          h2 {
-         position: relative;
-         &:after {
-           content: "";
-           width: 50px;
-           position: absolute;
-           border-bottom: 4px solid #7a7a7a;
-           top: 0;
-           bottom:100px;
-           left: 48%;
-           right: 0;
-         }
-       }
-     }
+  padding-bottom: 100px;
       .services-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-
         li {
         padding: 80px 120px;
         text-align: center;
-          p{
-            width: 200px;
-
-          }
+          p{ width: 200px;}
         }
       }
   }
+.skills {
+  img {
+    display: block;
+  margin: 20px auto;
+  }
+}
+
+.Portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    padding: 15px ;
+    text-align: center;
+    :hover {
+      transition: 0.7s;
+      transform:scale(1.1, 1.1);
+      opacity: 0.75;
+    }
+  }
+}
+.center {
+  margin-top: 45px;
+   text-align: center;
+ }
+
+.box {
+  width: 955px;
+  height: 350px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img{
+    width: 159px;
+    height: 159px;
+    border-radius: 5px;
+
+  }
+  .desc {
+    width: 575px;
+    text-align: left;
+    h6 {
+      font-size: 30px;
+    }
+    span {
+      font-size: 12px;
+      font-style: italic;
+    }
+    p {
+      font-size: 16px;
+      color: #bebebe;
+    }
+  }
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-form {
+  background:  #f6f6f6 url(../img/bg_img_2.png) center center no-repeat;
+  background-size: cover;
+
+}
+
+
+footer{
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+    social-list {
+    display: inline;
+    border: 1px solid red;
+  }
+}
