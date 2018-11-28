@@ -1,6 +1,7 @@
 body {
   font-size: 22px;
-  font-family: Asap, sans-serif; }
+  font-family: Asap, sans-serif;
+  scroll-behavior: smooth; }
 
 a, a:hover {
   text-decoration: none; }
@@ -122,6 +123,7 @@ section {
       right: 0; }
 
 .background {
+  padding-top: 50px;
   background: #f6f6f6;
   padding-bottom: 100px; }
   .background .services-list {
@@ -190,10 +192,30 @@ section {
   background: #f6f6f6 url(../img/bg_img_2.png) center center no-repeat;
   background-size: cover; }
 
+.contacts {
+  margin-bottom: 25px; }
+  .contacts form {
+    margin: 25px auto; }
+  .contacts .flex {
+    width: 770px;
+    display: flex;
+    justify-content: center; }
+    .contacts .flex label {
+      width: 370px;
+      height: 60px; }
+
 footer {
+  padding-top: 25px;
   border-top: 1px solid #fff;
   display: flex;
   justify-content: space-between; }
-  footer social-list {
-    display: inline;
-    border: 1px solid red; }
+
+.social-list li {
+  display: inline;
+  padding: 5px;
+  width: 22px;
+  height: 22px; }
+  .social-list li:hover {
+    cursor: pointer;
+    transition: 0.75s;
+    background: #0084b4; }

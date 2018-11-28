@@ -1,6 +1,8 @@
 body {
   font-size: 22px;
   font-family: Asap, sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 a, a:hover {
@@ -153,6 +155,7 @@ section{
 }
 
 .background {
+  padding-top: 50px;
   background: #f6f6f6;
   padding-bottom: 100px;
       .services-list {
@@ -240,13 +243,38 @@ section{
 
 }
 
+.contacts {
+  margin-bottom: 25px;
+  form {
+    margin: 25px auto;
+  }
+  .flex {
+    width: 770px;
+    display: flex;
+    justify-content:center;
+    label {
+      width: 370px;
+      height: 60px;
+    }
+  }
+}
+
 
 footer{
+  padding-top: 25px;
   border-top: 1px solid #fff;
   display: flex;
   justify-content: space-between;
-    social-list {
-    display: inline;
-    border: 1px solid red;
-  }
 }
+
+ .social-list li {
+       display: inline;
+       padding: 5px;
+       width: 22px;
+       height: 22px;
+       &:hover {
+         cursor: pointer;
+         transition: 0.75s;
+         background: #0084b4;
+       }
+ }
