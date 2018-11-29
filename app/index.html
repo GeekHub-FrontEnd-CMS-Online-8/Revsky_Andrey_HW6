@@ -7,6 +7,8 @@
   <link rel="icon" href="img/site_icon.png">
   <link href="https://fonts.googleapis.com/css?family=Asap:400,600,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
   <title>OENRIQUE</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
     </h1>
   <nav class="main-menu">
     <ul class="main-menu-list">
-      <li><a href="#Home">HOME</a></li>
+      <li><a href="#">HOME</a></li>
       <li><a href="#About">ABOUT</a></li>
       <li><a href="#services">SERVICES</a></li>
       <li><a href="#Portfolio">PORTFOLIO</a></li>
@@ -48,7 +50,6 @@
     <div class="about-me">
       <a id="About">ABOUT ME</a>
         <h2>KNOW MORE ABOUT ME</h2>
-      </a>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -57,7 +58,7 @@
       <a href="javascript:void(0)" class="button button_color text" >DOWNLOAD MY CV</a>
     </div>
 
-      <img class="right-img" src="img/about_me.png" alt="Its me" width="600">
+      <img class="right-img" src="img/about_me.png" alt="Its me">
 
   </section>
 
@@ -131,26 +132,24 @@
     <header class="section-header">
     <a name="Contacts"><h2 class="h2">SAY HELLO!</h2></a>
     </header>
-    <form action="javascript:void(0)" method="post" class="form text">
-      <div class="flex">
-        <label id="Name"><input type="text" placeholder="Name" name="Name"></label>
-        <label id="Email"><input type="email" placeholder="Email" name="Email"></label>
+    <form action="javascript:void(0)" method="post" class="form">
+      <div class='input-inline'>
+        <input placeholder="Name" name='name' required/>
+        <input placeholder="Email" name='name' required/>
       </div>
-      <textarea class="textarea text" placeholder="Message" ></textarea>
-      <input type="submit" class="button button_color submit text" value="SEND">
+      <textarea name="text" placeholder="Message" rows="5" ></textarea>
+      <button class=" button" type="submit">send</button>
     </form>
-    <a class="to_head" href="#Main"><img src="img/row_2.png" alt="to head"></a>
   </section>
-
 
 <footer class="wrap">
     <ul class="social-list">
-      <li><a href="javascript:void(0)"><img src="img/f.png" alt="facebook"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/t.png" alt="twitter"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/l.png" alt="linkedin"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/g.png" alt="g+"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/b.png" alt="behance"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/d.png" alt="dribbble"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-facebook-f"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-twitter"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-linkedin-in"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-google-plus-g"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-behance"></a></li>
+      <li><a href="javascript:void(0)" class="fab fa-dribbble"></a></li>
     </ul>
     <span class="right">2017. All Right Reserved</span>
   </footer>

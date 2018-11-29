@@ -162,7 +162,7 @@ section {
   width: 955px;
   height: 350px;
   border: 1px solid #000;
-  margin: 0 auto;
+  margin: 50px auto 0;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -193,29 +193,76 @@ section {
   background-size: cover; }
 
 .contacts {
-  margin-bottom: 25px; }
-  .contacts form {
-    margin: 25px auto; }
-  .contacts .flex {
-    width: 770px;
+  width: 770px;
+  margin: 0px auto;
+  text-align: center; }
+  .contacts .form {
+    margin-top: 50px;
+    display: block;
+    width: 770px; }
+  .contacts .input-inline {
     display: flex;
-    justify-content: center; }
-    .contacts .flex label {
+    justify-content: space-around; }
+    .contacts .input-inline input {
       width: 370px;
-      height: 60px; }
+      height: 57px;
+      padding-left: 25px;
+      color: #000;
+      border: 2px solid transparent;
+      margin-bottom: 25px; }
+      .contacts .input-inline input:hover {
+        border: 2px solid #000;
+        background: #bebebe; }
+  .contacts textarea {
+    width: 760px;
+    margin-left: 5px;
+    padding: 25px;
+    border: 2px solid transparent; }
+    .contacts textarea:hover {
+      border: 2px solid #000;
+      background: #bebebe; }
+  .contacts button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid transparent;
+    position: relative; }
+    .contacts button:before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 10px;
+      top: 20px;
+      right: 0;
+      bottom: 0;
+      left: 100px;
+      background: url(../img/row.png) center no-repeat; }
+    .contacts button:hover {
+      border: 2px solid #000; }
 
 footer {
   padding-top: 25px;
   border-top: 1px solid #fff;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-size: 18px; }
 
 .social-list li {
   display: inline;
-  padding: 5px;
-  width: 22px;
-  height: 22px; }
-  .social-list li:hover {
+  width: 30px;
+  height: 30px; }
+
+.social-list a {
+  text-align: right;
+  vertical-align: center;
+  display: inline-block;
+  color: #909090;
+  background: #fff;
+  width: 27px;
+  height: 27px;
+  padding-right: 6px;
+  padding-top: 5px; }
+  .social-list a:hover {
     cursor: pointer;
     transition: 0.75s;
+    color: #fff;
     background: #0084b4; }
